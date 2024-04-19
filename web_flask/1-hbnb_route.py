@@ -1,9 +1,11 @@
-from flask import Flask
+#!/usr/bin/python3
 """
 Starts Flask Web App
 Routes '/' => “Hello HBNB!” and
        '/hbnb' => “HBNB”
 """
+from flask import Flask
+
 app = Flask(__name__)
 
 

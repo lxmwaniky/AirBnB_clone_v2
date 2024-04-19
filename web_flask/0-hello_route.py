@@ -1,8 +1,10 @@
-from flask import Flask
+#!/usr/bin/python3
 """
 Starts Flask Web App
 Listens on 0.0.0.0:5000
 """
+from flask import Flask
+
 app = Flask(__name__)
 
 

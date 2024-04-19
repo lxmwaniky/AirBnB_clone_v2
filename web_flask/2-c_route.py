@@ -1,10 +1,12 @@
-from flask import Flask
+#!/usr/bin/python3
 """
 Routes:
 /: display “Hello HBNB!”
 /hbnb: display “HBNB”
 /c/<text>: display “C ”
 """
+from flask import Flask
+
 app = Flask(__name__)
 
 
