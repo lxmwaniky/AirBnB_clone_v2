@@ -5,7 +5,7 @@ Routes:
     '/' - display “Hello HBNB!”
     '/hbnb' - display “HBNB”
     '/c/<text>' - display “C ” followed by the value of the text
-    '/python/<text>' - 
+    '/python/<text>' - Display "Python is cool"
 """
 from flask import Flask
 
