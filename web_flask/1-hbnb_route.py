@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """Flask App
 Listens on 0.0.0.0:5000
-Routes '/' display Hello HBNB
+Routes:
+    '/' display Hello HBNB
     '/hbnb' display HBNB
 """
 from flask import Flask
