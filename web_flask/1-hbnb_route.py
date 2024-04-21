@@ -20,5 +20,5 @@ def hbnb():
     return "HBNB"
 
 
-if __name___ == '__main__':
+if __name___ == "__main__":
     app.run(host="0.0.0.0")
